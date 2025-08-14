@@ -1,0 +1,59 @@
+[
+    {
+        "on-prem-multi-model": {
+            "model": "llama3.2-vision:latest",
+            "api_key": "ollama",
+            "base_url": "http://106.51.108.165:11434/v1",
+            "api_type": "ollama",
+            "description": "On Premise Multi model Ollama"
+        }
+    },
+    {
+        "on-prem-language-model": {
+            "model": "llama3.1:8b",
+            "api_key": "ollama",
+            "base_url": "http://106.51.108.165:11434/v1",
+            "api_type": "ollama",
+            "description": "On Premise Multi model Ollama"
+        }
+    },
+    {
+        "azure-gpt-4o": {
+            "model": "gpt-4o",
+            "api_key": "AZURE_GPT_4O_API_KEY",
+            "base_url": "https://jira-openai.openai.azure.com/openai",
+            "endpoint" : "https://jira-openai.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview",
+            "api_type": "azure",
+            "api_version": "2025-01-01-preview",
+            "description": "Azure OpenAI  model"
+        }
+    },
+        {
+        "azure-o3-mini": {
+            "model": "gpt-o3-mini",
+            "api_key": "AZURE_O3_MINI_API_KEY",
+            "base_url": "https://jira-openai.openai.azure.com/",
+            "endpoint" : "https://jira-openai.openai.azure.com/openai/deployments/gpt-4o/chat/completions?api-version=2025-01-01-preview",
+            "api_type": "azure",
+            "api_version": "2025-01-01-preview",
+            "description": "Azure OpenAI  model"
+        }
+    },
+    {
+        "openai-gpt-4o": {
+            "model": "gpt-4o",
+            "api_key": "OPENAI_API_KEY",
+            "base_url": null,
+            "api_type": "openai",
+            "description": "OpenAI GPT-4o model"
+        }
+    },
+    {
+        "gemini": {
+            "model": "gemini-1.5-pro",
+            "api_key": "GEMINI_API_KEY",
+            "api_type": "gemini",
+            "description": "google gemini models "
+        }
+    }
+]

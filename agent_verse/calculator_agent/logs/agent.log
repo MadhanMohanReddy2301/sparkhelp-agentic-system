@@ -1,0 +1,19 @@
+2025-08-14 19:35:27,672 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:48 - Initializing [🤖] : calculator_agent
+2025-08-14 19:35:35,147 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:110 - Assistant > Hi there! 👋 
+
+How can I help you today? Just let me know what you're thinking, or if you just wanted to say hi, that's great too! 😊 
+
+I can:
+
+* **Answer questions:** About pretty much anything!
+* **Generate text:** Like stories, poems, code, scripts, musical pieces, email, letters, etc.
+* **Translate languages.**
+* **Summarize text.**
+* **Help you brainstorm.**
+* **Just chat!**
+
+
+
+
+2025-08-14 19:35:35,148 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:111 - Current Token Consumed : 2
+2025-08-14 19:35:35,148 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:112 - Total Token Consumed : 2

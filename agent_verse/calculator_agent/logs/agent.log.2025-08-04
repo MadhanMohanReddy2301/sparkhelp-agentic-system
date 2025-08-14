@@ -1,0 +1,51 @@
+2025-08-04 00:00:44,723 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:48 - Initializing [🤖] : calculator_agent
+2025-08-04 00:09:52,217 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:48 - Initializing [🤖] : calculator_agent
+2025-08-04 00:14:17,878 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:48 - Initializing [🤖] : calculator_agent
+2025-08-04 00:15:38,667 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:48 - Initializing [🤖] : calculator_agent
+2025-08-04 18:43:51,973 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:48 - Initializing [🤖] : calculator_agent
+2025-08-04 18:44:06,919 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:111 - Assistant > Hi there! 👋 
+
+How can I help you today? Just let me know what you're thinking, or if you just wanted to say hi, that's great too! 😊 
+
+I can:
+
+* **Answer questions:** About pretty much anything!
+* **Generate text:** Like stories, poems, code, scripts, musical pieces, email, letters, etc.
+* **Translate languages.**
+* **Summarize text.**
+* **Help you brainstorm.**
+* **Just chat!**
+
+
+
+
+2025-08-04 18:44:06,921 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:112 - Current Token Consumed : 2
+2025-08-04 18:44:06,922 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:113 - Total Token Consumed : 2
+2025-08-04 18:45:14,294 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:48 - Initializing [🤖] : calculator_agent
+2025-08-04 18:45:22,272 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:110 - Assistant > Hi there! 👋 
+
+How can I help you today? Just let me know what you're thinking, or if you just wanted to say hi, that's great too! 
+
+I can:
+
+* **Answer questions:** About pretty much anything!
+* **Generate text:** Like stories, poems, code, scripts, musical pieces, email, letters, etc.
+* **Translate languages.**
+* **Summarize text.**
+* **Help you brainstorm.**
+* **Just chat!**
+
+
+
+
+2025-08-04 18:45:22,274 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:111 - Current Token Consumed : 2
+2025-08-04 18:45:22,274 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:112 - Total Token Consumed : 2
+2025-08-04 18:45:35,730 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:110 - Assistant > Hello to you too! 😊 
+
+Is there anything I can do for you, or are you just saying hello? Either way is perfectly fine!
+
+
+
+
+2025-08-04 18:45:35,732 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:111 - Current Token Consumed : 111
+2025-08-04 18:45:35,732 DEBUG agent_verse/calculator_agent/agent_verse/calculator_agent/agent.py:112 - Total Token Consumed : 113

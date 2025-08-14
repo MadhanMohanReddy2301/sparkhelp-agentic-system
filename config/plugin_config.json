@@ -1,0 +1,7 @@
+[
+    {
+        "calculator_plugin": {
+            "sse_server_url": "http://localhost:9001/sse"
+        }
+    }
+]
