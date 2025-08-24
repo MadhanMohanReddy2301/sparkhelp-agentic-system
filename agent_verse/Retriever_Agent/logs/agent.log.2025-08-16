@@ -1,0 +1,58 @@
+2025-08-16 12:24:34,794 DEBUG agent_verse/Retriever_Agent/agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-16 12:25:06,662 DEBUG agent_verse/Retriever_Agent/agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-16 12:25:46,044 DEBUG agent_verse/Retriever_Agent/agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-16 12:29:45,480 DEBUG agent_verse/Retriever_Agent/agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-16 12:29:57,805 DEBUG agent_verse/Retriever_Agent/agent_verse/Retriever_Agent/agent.py:117 - Assistant > Hello! How can I assist you today?
+2025-08-16 12:29:57,806 DEBUG agent_verse/Retriever_Agent/agent_verse/Retriever_Agent/agent.py:118 - Current Token Consumed : 32
+2025-08-16 12:29:57,807 DEBUG agent_verse/Retriever_Agent/agent_verse/Retriever_Agent/agent.py:119 - Total Token Consumed : 32
+2025-08-16 12:30:17,620 DEBUG agent_verse/Retriever_Agent/agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-16 12:30:26,601 DEBUG agent_verse/Retriever_Agent/agent_verse/Retriever_Agent/agent.py:117 - Assistant > I have access to tools for searching ticket-related information based on semantic queries or metadata filters. Here are the tools available:
+
+1. **Search Similar Tickets**:
+   - Allows searching for similar tickets in the database using a natural-language query.
+   - Optionally, you can specify the number of results (`k`) to fetch or apply `filters` based on metadata.
+
+2. **Multi Tool Use**:
+   - Enables the parallel execution of multiple tools for efficiency, provided they fulfill the task independently.
+
+Let me know how I can assist you!
+2025-08-16 12:30:26,602 DEBUG agent_verse/Retriever_Agent/agent_verse/Retriever_Agent/agent.py:118 - Current Token Consumed : 264
+2025-08-16 12:30:26,602 DEBUG agent_verse/Retriever_Agent/agent_verse/Retriever_Agent/agent.py:119 - Total Token Consumed : 264
+2025-08-16 12:31:09,692 DEBUG agent_verse/Retriever_Agent/agent_verse/Retriever_Agent/agent.py:117 - Assistant > Here are some cybersecurity-related tickets based on your request:
+
+1. **Ticket ID: 1840**  
+   **Title:** Improving Cybersecurity for Medical Data Protection  
+   **Details:**  
+   - Customer emphasized the importance of robust cybersecurity for safeguarding medical data within healthcare systems.
+   - Recommended conducting risk assessments and implementing security protocols.  
+   **Response:** Customer is asked for additional details about current security protocols and proposes scheduling a call to explore solutions.
+
+2. **Ticket ID: 7794**  
+   **Title:** Improving Cybersecurity for Medical Data Safety  
+   **Details:**  
+   - Concern about strengthening cybersecurity within healthcare networks.
+   - Advised risk assessment and identification of system vulnerabilities.  
+   **Response:** The customer is requested to provide details of their security measures, with an offer to schedule a call to discuss options.
+
+3. **Ticket ID: 8723**  
+   **Title:** Cybersecurity Breach Affecting Medical Data Systems  
+   **Details:**  
+   - Report of a malware-based cybersecurity breach affecting a hospital's medical data.
+   - Steps were taken, like firewall improvements and antivirus updates, but issues persist.  
+   **Response:** Proposal to schedule a call with a cybersecurity expert to investigate and implement remediation steps.
+
+4. **Ticket ID: 5661**  
+   **Title:** Enhancement of Cybersecurity Measures for Protecting Medical Data  
+   **Details:**  
+   - Highlighted the need for strong measures like advanced threat detection software and regular audits to protect medical data.  
+   **Response:** The customer is asked for more system details and invited to arrange a call for further discussion.
+
+5. **Ticket ID: 7998**  
+   **Title:** Multiple Products Compromised Due to Security Incidents  
+   **Details:**  
+   - Company reported recurrent security breaches affecting multiple products, possibly due to outdated software or configuration issues.  
+   **Response:** Proposed designating a specialist to examine the affected products and help with configuration adjustments.
+
+Let me know if you want more details or assistance with any specific ticket!
+2025-08-16 12:31:09,695 DEBUG agent_verse/Retriever_Agent/agent_verse/Retriever_Agent/agent.py:118 - Current Token Consumed : 3111
+2025-08-16 12:31:09,695 DEBUG agent_verse/Retriever_Agent/agent_verse/Retriever_Agent/agent.py:119 - Total Token Consumed : 3375

@@ -1,0 +1,113 @@
+2025-08-23 14:34:44,563 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-23 14:34:44,581 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-23 14:34:44,625 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-23 14:34:44,642 INFO orchestration.py:152 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.
+2025-08-23 14:34:55,870 ERROR orchestration.py:63 - No Agent Name found in message (Triage_Agent): {
+  "ticket_id": "<generated-or-provided-id>",
+  "cleaned_text": "subject: production api: intermittent 502s & high latency since 2025-08-14\n\nhi support team,\nwe’ve noticed intermittent 502 errors and unusually high latency affecting the production api since august 14th, 2025. this is severely impacting our clients and operations.\n\nexamples:\n1. error trace id: <redacted:api_key>\n2. query timestamps: aug 16th, 7:43 pm & aug 17th, 9:02 am\n\nplease investigate this issue urgently. let me know if you need more details from our logs.\n\nthanks,\njohn doe\n<redacted:email>\n<redacted:phone>",
+  "language": "en",
+  "product": "production api",
+  "version": "2025.08",
+  "severity": "critical",
+  "intent": "bug",
+  "is_spam": false,
+  "pii_masked": true,
+  "notes": "intermittent critical issues impacting clients; urgency implied."
+}
+2025-08-23 14:34:55,870 ERROR orchestration.py:64 - Retrying with same agent
+2025-08-23 14:35:21,174 ERROR orchestration.py:63 - No Agent Name found in message (Retriever_Agent): {
+  "ticket_id": "<generated-or-provided-id>",
+  "retrieved_context": [
+    "no prior context explicitly matches the critical intermittent 502 errors or high latency described in the ticket. the retrieved related cases mostly describe issues with server capacity, api response times, or timeout incidents, but no exact incident resolution was found. please proceed to craft a response referencing the client's specific context."
+  ]
+}
+2025-08-23 14:35:21,175 ERROR orchestration.py:64 - Retrying with same agent
+2025-08-23 14:35:29,004 INFO orchestration.py:178 - Group Chat Over
+2025-08-23 14:35:39,803 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-23 14:35:39,819 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-23 14:35:39,858 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-23 14:35:39,873 INFO orchestration.py:152 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.
+2025-08-23 14:36:01,924 ERROR orchestration.py:63 - No Agent Name found in message (Retriever_Agent): {
+  "ticket_id": "<generated-or-provided-id>",
+  "cleaned_text": "subject: production api: intermittent 502s & high latency since 2025-08-14\nbody: we’ve been noticing intermittent 502 bad gateway errors and increased latency on our production api systems since august 14th, 2025. no changes were made to our client configurations during this period. can you investigate if there’s an underlying issue?",
+  "retrieved_context": [
+    {
+      "source_id": "12959",
+      "snippet": "several integrations have failed at the same time, possibly due to an overload on the api gateway. after restarting the services and examining the logs, the problem still persists.",
+      "url": null,
+      "score": 0.415,
+      "notes": "potential overload on the api gateway causing integration failures."
+    },
+    {
+      "source_id": "12802",
+      "snippet": "sporadic connectivity disruptions causing data synchronization failures across integrated applications, potentially due to api overloads or network configuration errors.",
+      "url": null,
+      "score": 0.418,
+      "notes": "connectivity issues suspected to stem from api overloads or configuration errors."
+    },
+    {
+      "source_id": "11193",
+      "snippet": "critical outage on saas platform, possibly due to api connection problems from recent updates. attempts to revert changes were unsuccessful.",
+      "url": null,
+      "score": 0.459,
+      "notes": "recent updates suspected in api connection issues."
+    },
+    {
+      "source_id": "4165",
+      "snippet": "intermittent connectivity issues with saas platform likely due to api rate limiting and server overload. restarted services and optimized database queries but issues persist.",
+      "url": null,
+      "score": 0.476,
+      "notes": "intermittent connectivity tied to server overload and api rate limiting."
+    },
+    {
+      "source_id": "9142",
+      "snippet": "delays in api response times during peak usage hours broadly linked to increased server load.",
+      "url": null,
+      "score": 0.476,
+      "notes": "api response delays related to peak load conditions."
+    },
+    {
+      "source_id": "1187",
+      "snippet": "intermittent connectivity issues across multiple products suspected to be due to server overload or configuration errors. restarted services, but problems persist.",
+      "url": null,
+      "score": 0.494,
+      "notes": "connectivity issues across products, tied to server and network configurations."
+    },
+    {
+      "source_id": "9182",
+      "snippet": "recurrent outages on saas platform impacting integrations. cause suspected to be server overload, cleared caches and restarted servers.",
+      "url": null,
+      "score": 0.499,
+      "notes": "server overload in saas platform causing operational disruptions."
+    },
+    {
+      "source_id": "10861",
+      "snippet": "extended api response delays linked to server load during peak hours, requiring investigation into load handling.",
+      "url": null,
+      "score": 0.499,
+      "notes": "extended delays suspected to correlate with peak usage server performance."
+    },
+    {
+      "source_id": "784",
+      "snippet": "latency problems possibly due to insufficient server capacity or inefficient queries. specific times of issues need diagnosing.",
+      "url": null,
+      "score": 0.500,
+      "notes": "sporadic server latency absence needs troubleshooting on query execution."
+    },
+    {
+      "source_id": "10995",
+      "snippet": "frequent saas platform outages linked to server overload. reboot sequences are adhered to without solution.",
+      "url": null,
+      "score": 0.504,
+      "notes": "rebooting investigations focused on backend database while focusing per ftp network."
+    },
+    {
+      "source_id": "2434",
+      "snippet": "outages of shared build add ramps create overlap too ru at very peak transformation.",
+      "score ": "server issue application backlog also clear nxt rsc-service"
+    while further optimizing wrinkles of peak-moment opm.inventory results account to rotate rotation's speed.signature nodes tensormarked pruning tuple dbgrpcontinue selections fully.get users odxextrasignatures
+2025-08-23 14:36:01,925 ERROR orchestration.py:64 - Retrying with same agent
+2025-08-23 14:36:12,562 ERROR orchestration.py:63 - No Agent Name found in message (Retriever_Agent): {
+  "refined_result_length_corrected_last_extracted_message_premature_location_signature-expand-and-linkupdated.context.listener.peerprinted-in zip usedcomputed_sign_ssl
+2025-08-23 14:36:12,562 ERROR orchestration.py:64 - Retrying with same agent
+2025-08-23 14:36:41,266 INFO orchestration.py:178 - Group Chat Over

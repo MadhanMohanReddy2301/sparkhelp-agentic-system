@@ -1,0 +1,56 @@
+2025-08-17 20:19:17,014 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-17 20:19:17,030 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-17 20:19:17,044 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-17 20:27:02,526 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-17 20:27:02,541 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-17 20:27:02,590 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-17 22:29:09,238 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-17 22:29:09,255 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-17 22:29:09,295 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-17 22:29:09,310 INFO process_specific_agent.py:156 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. 
+2025-08-17 22:29:21,354 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:29:50,267 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:51:17,511 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-17 22:51:17,528 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-17 22:51:17,571 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-17 22:51:17,586 INFO process_specific_agent.py:156 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. 
+2025-08-17 22:51:23,239 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:51:25,665 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:51:26,720 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:51:27,612 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:51:28,288 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:51:28,295 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:51:28,301 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:51:28,306 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:51:28,311 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:51:28,316 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:51:28,364 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:51:28,367 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:51:28,370 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:51:28,374 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:52:57,780 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-17 22:52:57,797 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-17 22:52:57,837 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-17 22:52:57,853 INFO process_specific_agent.py:156 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. 
+2025-08-17 22:53:00,545 ERROR process_specific_agent.py:63 - No Agent Name found in message (Triage_Agent): please provide the body of the message so i can assist further. thank you!
+2025-08-17 22:53:00,546 ERROR process_specific_agent.py:64 - Retrying with same agent
+2025-08-17 22:53:01,224 ERROR process_specific_agent.py:63 - No Agent Name found in message (Triage_Agent): thank you for providing the subject. could you please provide the body of the message as well?
+2025-08-17 22:53:01,225 ERROR process_specific_agent.py:64 - Retrying with same agent
+2025-08-17 22:53:03,039 ERROR process_specific_agent.py:63 - No Agent Name found in message (Triage_Agent): could you share the body of the message? this will help me complete the intake process for your ticket. thank you!
+2025-08-17 22:53:03,040 ERROR process_specific_agent.py:64 - Retrying with same agent
+2025-08-17 22:53:04,258 ERROR process_specific_agent.py:63 - No Agent Name found in message (Triage_Agent): could you please provide the body of the message related to this ticket?
+2025-08-17 22:53:04,259 ERROR process_specific_agent.py:64 - Retrying with same agent
+2025-08-17 22:53:05,830 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:53:05,835 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:53:05,838 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:53:05,841 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:53:05,844 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:53:05,846 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:53:05,849 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:53:05,852 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:53:05,854 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:53:05,857 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:53:05,859 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:53:05,862 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:53:05,864 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-17 22:53:05,866 INFO process_specific_agent.py:189 - Group Chat Over

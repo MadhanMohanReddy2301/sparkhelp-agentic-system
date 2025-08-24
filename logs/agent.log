@@ -1,0 +1,129 @@
+2025-08-24 16:15:36,387 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-24 16:15:36,405 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-24 16:15:36,476 DEBUG agent_verse/Composer_Agent/agent.py:50 - Initializing [🤖] : Composer_Agent
+2025-08-24 16:15:36,493 INFO orchestration.py:152 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.
+2025-08-24 16:21:33,568 ERROR orchestration.py:63 - No Agent Name found in message (Triage_Agent): hello! please provide the details of your it support ticket, including the subject, body, and the email address it came from, to help me process it properly.
+2025-08-24 16:21:33,570 ERROR orchestration.py:64 - Retrying with same agent
+2025-08-24 16:21:34,484 INFO orchestration.py:178 - Group Chat Over
+2025-08-24 16:22:54,222 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-24 16:22:54,239 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-24 16:22:54,292 DEBUG agent_verse/Composer_Agent/agent.py:50 - Initializing [🤖] : Composer_Agent
+2025-08-24 16:22:54,309 INFO orchestration.py:152 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.
+2025-08-24 16:23:17,757 INFO orchestration.py:178 - Group Chat Over
+2025-08-24 16:27:00,950 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-24 16:27:00,969 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-24 16:27:01,021 DEBUG agent_verse/Composer_Agent/agent.py:50 - Initializing [🤖] : Composer_Agent
+2025-08-24 16:27:01,040 INFO orchestration.py:152 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.
+2025-08-24 16:27:26,238 ERROR orchestration.py:63 - No Agent Name found in message (Triage_Agent): {
+  "from_email_address": "<actual email address>",
+  "cleaned_text": "subject: detected unauthorized access attempt in hospital systems. we noticed an unauthorized access attempt in our hospital's systems. can you investigate this as soon as possible? regards, [name].",
+  "language": "en",
+  "product": null,
+  "version": null,
+  "severity": "high",
+  "intent": "abuse",
+  "is_spam": false,
+  "pii_masked": true,
+  "notes": "detected possible abuse or unauthorized activity in hospital system; marked severity as high."
+}
+2025-08-24 16:27:26,239 ERROR orchestration.py:64 - Retrying with same agent
+2025-08-24 16:27:47,296 ERROR orchestration.py:63 - No Agent Name found in message (Retriever_Agent): {
+  "ticket_id": "<actual_email_address>",
+  "cleaned_text": "subject: detected unauthorized access attempt in hospital systems. we noticed an unauthorized access attempt in our hospital's systems. can you investigate this as soon as possible? regards, [name].",
+  "retrieved_context": [
+    {
+      "source_id": "5086",
+      "snippet": "detected unauthorized access attempt on hospital systems. an unauthorized access attempt has been detected on our hospital systems. <name> has received an email regarding an unauthorized access attempt detected on hospital systems. we take security very seriously and are taking immediate action to investigate the incident. our team is reviewing logs and system activity to determine the source and scope of the attempt. we will provide a detailed report of the findings and necessary next steps to ensure the security of our systems.",
+      "score": 0.85
+    },
+    {
+      "source_id": "9753",
+      "snippet": "detected unauthorized access attempt on hospital systems. noted unauthorized access attempt on hospital systems, which may compromise medical data security. this could be due to outdated software vulnerabilities or weak access controls. steps taken include resetting passwords, updating software, and running security scans, but the issue persists.",
+      "score": 0.83
+    },
+    {
+      "source_id": "3367",
+      "snippet": "concern regarding unauthorized access attempt. an unauthorized access attempt has been detected in the hospital's system. the possible causes include vulnerabilities due to outdated software and improper access controls. a system audit was conducted, and new security protocols were updated, but access still appears to be a concern.",
+      "score": 0.81
+    },
+    {
+      "source_id": "6670",
+      "snippet": "incident: unauthorized access to hospital system. there was an unauthorized access attempt on the hospital system, which may have compromised patient medical data due to vulnerabilities in outdated security protocols and software. immediate actions, including system scans and password changes, have been implemented to mitigate the issue.",
+      "score": 0.80
+    },
+    {
+      "source_id": "5552",
+      "snippet": "concern about hospital cybersecurity breach. an unauthorized access attempt was identified in the hospital's systems, suggesting a possible vulnerability has been exploited. our team will investigate the potential vulnerability that was exploited to prevent similar incidents in the future.",
+      "score": 0.79
+    },
+    {
+      "source_id": "13105",
+      "snippet": "an unauthorized access incident has taken place, leading to a compromise of medical data security within the hospital's it systems. possible reasons for this could be the use of weak passwords and outdated software. steps taken so far include resetting passwords and updating the system.",
+      "score": 0.79
+    },
+    {
+      "source_id": "183",
+      "snippet": "unauthorized access incident in hospital systems. a healthcare organization encountered multiple unauthorized access attempts targeting its hospital systems. these incidents may be linked to outdated security patches, initial firewall configurations, or the need for password resets, continuing despite recent security measures.",
+      "score": 0.78
+    },
+    {
+      "source_id": "10347",
+      "snippet": "concern about unauthorized access to hospital system. an unauthorized access attempt was detected in the hospital's system. the possible causes include vulnerabilities due to outdated software and inadequate access controls. after conducting a system audit and updating security protocols, unauthorized access still seems possible.",
+      "score": 0.78
+    },
+    {
+      "source_id": "11206",
+      "snippet": "support request for incident documentation. detected unauthorized entry into the hospital's system. a potential phishing attempt exploited vulnerable login details. password resets have been carried out, and increased monitoring has been established to prevent recurrence.",
+      "score": 0.77
+    },
+    {
+      "source_id": "424",
+      "snippet": "security concern in hospital system. an unauthorized access attempt was detected in the hospital's system. this incident might have occurred due to outdated security protocols. access logs need to be reinforced to ensure the integrity of the system.",
+      "score": 0.76
+    },
+    {
+      "source_id": "944",
+      "snippet": "detected unauthorized access attempt. an unauthorized access attempt has been detected on the hospital system, posing a risk to patient data security. external access has been disabled and security protocols have been updated. assistance is required to secure data integrity and ensure the safety of patient information.",
+      "score": 0.75
+    },
+    {
+      "source_id": "1956",
+      "snippet": "hospital it system incident report. an unauthorized access attempt on the hospital system has been detected, potentially exposing protected health information (phi). review the system's vulnerability to ensure it is fully patched and secure.",
+      "score": 0.75
+    }
+  ]
+}
+2025-08-24 16:27:47,297 ERROR orchestration.py:64 - Retrying with same agent
+2025-08-24 16:29:18,813 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-24 16:29:18,831 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-24 16:29:18,885 DEBUG agent_verse/Composer_Agent/agent.py:50 - Initializing [🤖] : Composer_Agent
+2025-08-24 16:29:18,903 INFO orchestration.py:152 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.
+2025-08-24 16:30:26,081 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-24 16:30:26,097 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-24 16:30:26,143 DEBUG agent_verse/Composer_Agent/agent.py:50 - Initializing [🤖] : Composer_Agent
+2025-08-24 16:30:26,159 INFO orchestration.py:152 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.
+2025-08-24 16:30:57,406 INFO orchestration.py:178 - Group Chat Over
+2025-08-24 16:40:45,889 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-24 16:40:45,909 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-24 16:40:45,975 DEBUG agent_verse/Composer_Agent/agent.py:50 - Initializing [🤖] : Composer_Agent
+2025-08-24 16:40:45,995 INFO orchestration.py:152 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.
+2025-08-24 16:41:30,106 INFO orchestration.py:178 - Group Chat Over
+2025-08-24 16:43:54,876 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-24 16:43:54,894 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-24 16:43:54,942 DEBUG agent_verse/Composer_Agent/agent.py:50 - Initializing [🤖] : Composer_Agent
+2025-08-24 16:43:54,962 INFO orchestration.py:152 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.
+2025-08-24 16:44:24,366 INFO orchestration.py:178 - Group Chat Over
+2025-08-24 16:55:45,245 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-24 16:55:45,263 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-24 16:55:45,325 DEBUG agent_verse/Composer_Agent/agent.py:50 - Initializing [🤖] : Composer_Agent
+2025-08-24 16:55:45,342 INFO orchestration.py:152 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.
+2025-08-24 16:56:55,798 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-24 16:56:55,815 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-24 16:56:55,860 DEBUG agent_verse/Composer_Agent/agent.py:50 - Initializing [🤖] : Composer_Agent
+2025-08-24 16:56:55,876 INFO orchestration.py:152 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.
+2025-08-24 16:57:30,341 INFO orchestration.py:178 - Group Chat Over
+2025-08-24 16:59:08,665 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-24 16:59:08,685 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-24 16:59:08,746 DEBUG agent_verse/Composer_Agent/agent.py:50 - Initializing [🤖] : Composer_Agent
+2025-08-24 16:59:08,763 INFO orchestration.py:152 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.
+2025-08-24 16:59:37,510 INFO orchestration.py:178 - Group Chat Over

@@ -1,0 +1,17 @@
+2025-08-24 15:53:15,502 DEBUG agent_verse/Composer_Agent/agent_verse/Composer_Agent/agent.py:50 - Initializing [🤖] : Composer_Agent
+2025-08-24 15:54:22,063 DEBUG agent_verse/Composer_Agent/agent_verse/Composer_Agent/agent.py:111 - Assistant > It seems the email plugin encountered an authentication issue when trying to send the email. The error indicates incorrect credentials. Please verify the SMTP settings and credentials for Gmail.
+
+Done
+2025-08-24 15:54:22,066 DEBUG agent_verse/Composer_Agent/agent_verse/Composer_Agent/agent.py:112 - Current Token Consumed : 1088
+2025-08-24 15:54:22,066 DEBUG agent_verse/Composer_Agent/agent_verse/Composer_Agent/agent.py:113 - Total Token Consumed : 1088
+2025-08-24 15:57:59,766 DEBUG agent_verse/Composer_Agent/agent_verse/Composer_Agent/agent.py:50 - Initializing [🤖] : Composer_Agent
+2025-08-24 15:58:07,729 DEBUG agent_verse/Composer_Agent/agent_verse/Composer_Agent/agent.py:111 - Assistant > The test email has been successfully sent to pmadhan0006@gmail.com. 
+
+Done
+2025-08-24 15:58:07,729 DEBUG agent_verse/Composer_Agent/agent_verse/Composer_Agent/agent.py:112 - Current Token Consumed : 1018
+2025-08-24 15:58:07,730 DEBUG agent_verse/Composer_Agent/agent_verse/Composer_Agent/agent.py:113 - Total Token Consumed : 1018
+2025-08-24 16:00:51,252 DEBUG agent_verse/Composer_Agent/agent_verse/Composer_Agent/agent.py:111 - Assistant > The test email has been successfully sent to anithakarre507@gmail.com.
+
+Done
+2025-08-24 16:00:51,254 DEBUG agent_verse/Composer_Agent/agent_verse/Composer_Agent/agent.py:112 - Current Token Consumed : 1153
+2025-08-24 16:00:51,254 DEBUG agent_verse/Composer_Agent/agent_verse/Composer_Agent/agent.py:113 - Total Token Consumed : 2171

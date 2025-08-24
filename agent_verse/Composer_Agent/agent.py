@@ -8,13 +8,15 @@ from semantic_kernel.connectors.ai import FunctionChoiceBehavior
 from semantic_kernel.agents import ChatCompletionAgent, ChatHistoryAgentThread
 from ai_model.agent_llm_factory import AgentLLMFactory
 from utils.logger import log
-from prompt.prompt_factory import PromptFactory
+from .prompt.prompt_factory import PromptFactory
+from agent_plugins_verse.agent_email_plugin.plugin import EmailPlugin
+from semantic_kernel.connectors.mcp import MCPSsePlugin
 
 # Agent name cannot contain spaces,  String should match pattern '^[0-9A-Za-z_-]+$'
-AGENT_NAME = "calculator_agent"
+AGENT_NAME = "Composer_Agent"
 
 
-class CalculatorAgent:
+class ComposerAgent:
     """
         Agent for performing mathematical calculations using remote MCP plugins.
     """
@@ -52,13 +54,12 @@ class CalculatorAgent:
             raise RuntimeError("Failed to create chat completion service. Check configuration and credentials.")
 
         agent_kernel.add_service(chat_completion_service)
-
+        agent_kernel.add_plugin(EmailPlugin(), plugin_name="send_email")
         # Get the AI Service settings
         settings = agent_kernel.get_prompt_execution_settings_from_service_id(chat_completion_service.service_id)
 
         # Configure the function choice behavior to auto invoke kernel functions
         settings.function_choice_behavior = FunctionChoiceBehavior.Auto()
-
 
         agent_prompt = PromptFactory().get_agent_prompt()
 
@@ -66,7 +67,7 @@ class CalculatorAgent:
         agent = ChatCompletionAgent(
             kernel=agent_kernel,
             name=AGENT_NAME,
-            description="Agent that performs mathematical calculation using plugin/tools",
+            description="Agent is responsible for writing the final email.",
             instructions=agent_prompt,
             arguments=KernelArguments(settings=settings),
         )
@@ -115,4 +116,4 @@ class CalculatorAgent:
 if __name__ == "__main__":
     import asyncio
 
-    asyncio.run(CalculatorAgent().run())
+    asyncio.run(ComposerAgent().run())

@@ -1,0 +1,339 @@
+2025-08-20 08:55:43,912 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 08:55:43,929 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 08:55:43,972 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 08:55:43,987 INFO process_specific_agent.py:156 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. 
+2025-08-20 08:56:02,022 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:04,176 ERROR process_specific_agent.py:63 - No Agent Name found in message (Triage_Agent): could you please provide the subject of the email? i need both the subject and body to proceed.
+2025-08-20 08:56:04,177 ERROR process_specific_agent.py:64 - Retrying with same agent
+2025-08-20 08:56:05,595 ERROR process_specific_agent.py:63 - No Agent Name found in message (Triage_Agent): could you please provide the subject of the email? i need both the subject and body to proceed.
+2025-08-20 08:56:05,596 ERROR process_specific_agent.py:64 - Retrying with same agent
+2025-08-20 08:56:06,658 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:06,661 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:06,663 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:06,666 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:06,669 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:06,671 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:06,674 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:06,676 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:06,679 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:06,682 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:06,684 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:06,687 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:06,689 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:42,737 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:42,743 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:42,748 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:42,753 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:42,757 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:42,760 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:42,764 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:42,768 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:42,771 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:42,775 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:42,778 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:42,781 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:42,785 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:42,788 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:56:54,364 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 08:56:54,381 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 08:56:54,423 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 08:56:54,439 INFO process_specific_agent.py:156 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. 
+2025-08-20 08:57:17,141 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:18,023 ERROR process_specific_agent.py:63 - No Agent Name found in message (Triage_Agent): it seems the body of the email is missing. could you please provide the email body so i can proceed with processing the ticket?
+2025-08-20 08:57:18,023 ERROR process_specific_agent.py:64 - Retrying with same agent
+2025-08-20 08:57:18,601 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:19,304 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:20,078 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:20,081 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:20,084 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:20,087 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:20,090 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:20,093 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:20,095 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:20,098 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:20,101 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:20,104 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:20,106 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:24,945 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 08:57:24,960 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 08:57:25,000 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 08:57:25,015 INFO process_specific_agent.py:156 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. 
+2025-08-20 08:57:28,635 ERROR process_specific_agent.py:63 - No Agent Name found in message (Triage_Agent): please provide the body of the message to proceed with processing. without the body text, i cannot complete the intake evaluation.
+2025-08-20 08:57:28,636 ERROR process_specific_agent.py:64 - Retrying with same agent
+2025-08-20 08:57:29,203 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:30,110 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:30,939 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:31,952 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:31,956 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:31,960 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:31,964 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:31,968 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:31,972 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:31,975 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:31,979 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:31,982 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:31,985 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:57:31,989 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:58:43,542 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 08:58:43,557 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 08:58:43,596 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 08:58:43,611 INFO process_specific_agent.py:156 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. 
+2025-08-20 08:58:53,371 ERROR process_specific_agent.py:63 - No Agent Name found in message (Triage_Agent): i will need the body of the ticket to proceed further. could you please provide the details?
+2025-08-20 08:58:53,372 ERROR process_specific_agent.py:64 - Retrying with same agent
+2025-08-20 08:58:53,926 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:58:55,362 ERROR process_specific_agent.py:63 - No Agent Name found in message (Triage_Agent): the email body is missing. could you kindly provide the full body text of the email? once i have it, i can proceed with processing.
+2025-08-20 08:58:55,363 ERROR process_specific_agent.py:64 - Retrying with same agent
+2025-08-20 08:58:56,134 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:58:57,130 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:58:57,134 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:58:57,137 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:58:57,140 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:58:57,144 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:58:57,147 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:58:57,150 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:58:57,153 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:58:57,156 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:58:57,159 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:58:57,162 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:58:57,164 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 08:58:59,997 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 08:59:00,012 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 08:59:00,051 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 08:59:00,067 INFO process_specific_agent.py:156 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. 
+2025-08-20 09:00:57,066 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 09:00:57,082 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 09:00:57,120 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 09:00:57,136 INFO process_specific_agent.py:156 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. 
+2025-08-20 09:01:02,481 ERROR process_specific_agent.py:63 - No Agent Name found in message (Triage_Agent): {
+  "ticket_id": "<generated-id>",
+  "cleaned_text": "subject: urgent: data encryption error after recent software update body: after updating to version 3.2.4 of your software, we've encountered an error in the encryption functionality. files are not encrypting correctly and are displaying error codes during processing. this is affecting critical operations. please advise urgently.",
+  "language": "en",
+  "product": "data-encryption-software",
+  "version": "3.2.4",
+  "severity": "critical",
+  "intent": "bug",
+  "is_spam": false,
+  "pii_masked": false,
+  "notes": null
+}
+2025-08-20 09:01:02,482 ERROR process_specific_agent.py:64 - Retrying with same agent
+2025-08-20 09:01:05,903 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:01:07,077 ERROR process_specific_agent.py:63 - No Agent Name found in message (Triage_Agent): please provide the subject and body of the email so i can process the support ticket effectively. 😊
+2025-08-20 09:01:07,077 ERROR process_specific_agent.py:64 - Retrying with same agent
+2025-08-20 09:01:07,638 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:01:07,643 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:01:07,647 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:01:07,651 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:01:07,655 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:01:07,658 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:01:07,661 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:01:07,665 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:01:07,668 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:01:07,671 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:01:07,674 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:01:07,677 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:01:07,680 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:02:28,873 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 09:02:28,889 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 09:02:28,927 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 09:02:28,941 INFO process_specific_agent.py:156 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. 
+2025-08-20 09:02:42,891 ERROR process_specific_agent.py:63 - No Agent Name found in message (Triage_Agent): {
+  "ticket_id": "<generated-or-provided-id>",
+  "cleaned_text": "subject: urgent: data encryption error after recent software update\nbody: hi team, after applying the latest software update (version 5.3.1), our data encryption functionality appears to be broken. we receive error code err-3421 when trying to encrypt files. this is affecting our compliance processes and needs urgent attention. please investigate. thanks, john doe.",
+  "language": "en",
+  "product": "encryption-module",
+  "version": "5.3.1",
+  "severity": "high",
+  "intent": "bug",
+  "is_spam": false,
+  "pii_masked": true,
+  "notes": "pii (likely name) has been masked."
+}
+2025-08-20 09:02:42,891 ERROR process_specific_agent.py:64 - Retrying with same agent
+2025-08-20 09:02:55,200 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:03:00,026 ERROR process_specific_agent.py:63 - No Agent Name found in message (Triage_Agent): it seems you haven't provided any content for the email body. could you please provide the subject, body, or the ticket message so i can assist you effectively?
+2025-08-20 09:03:00,027 ERROR process_specific_agent.py:64 - Retrying with same agent
+2025-08-20 09:03:00,814 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:03:00,820 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:03:00,824 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:03:00,828 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:03:00,832 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:03:00,835 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:03:00,839 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:03:00,842 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:03:00,845 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:03:00,848 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:03:00,851 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:03:00,854 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:03:00,857 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:09:42,874 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 09:09:42,891 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 09:09:42,932 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 09:09:42,948 INFO process_specific_agent.py:156 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. 
+2025-08-20 09:10:08,595 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:10:09,991 ERROR process_specific_agent.py:63 - No Agent Name found in message (Triage_Agent): can you please provide more details about the email body or subject so i can assist further?
+2025-08-20 09:10:09,993 ERROR process_specific_agent.py:64 - Retrying with same agent
+2025-08-20 09:10:10,585 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:10:10,595 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:10:10,602 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:10:10,609 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:10:10,615 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:10:10,620 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:10:10,624 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:10:10,628 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:10:10,631 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:10:10,635 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:10:10,638 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:10:10,641 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:10:10,644 INFO process_specific_agent.py:189 - Group Chat Over
+2025-08-20 09:22:54,494 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 09:22:54,510 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 09:22:54,549 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 09:22:54,565 INFO orchestration.py:156 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. 
+2025-08-20 09:23:53,835 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:55,493 ERROR orchestration.py:63 - No Agent Name found in message (Triage_Agent): could you please provide the email subject and body so i can assist you further?
+2025-08-20 09:23:55,494 ERROR orchestration.py:64 - Retrying with same agent
+2025-08-20 09:23:56,042 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,049 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,054 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,058 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,063 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,066 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,070 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,073 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,076 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,079 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,082 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,085 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,088 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,091 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,094 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,096 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,099 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,102 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,104 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,107 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,110 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,112 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,115 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,118 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,120 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,123 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,126 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,128 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,131 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,134 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,136 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,139 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,142 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,144 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:23:56,147 INFO orchestration.py:189 - Group Chat Over
+2025-08-20 09:28:09,963 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 09:28:09,979 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 09:28:10,018 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 09:28:10,033 INFO orchestration.py:156 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. 
+2025-08-20 09:28:16,580 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 09:28:16,595 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 09:28:16,633 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 09:28:16,648 INFO orchestration.py:156 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. 
+2025-08-20 09:29:01,197 INFO orchestration.py:190 - Group Chat Over
+2025-08-20 09:59:59,746 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 09:59:59,762 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 09:59:59,801 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 09:59:59,817 INFO orchestration.py:156 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. 
+2025-08-20 10:02:06,237 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 10:02:06,253 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 10:02:06,293 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 10:02:06,308 INFO orchestration.py:156 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. 
+2025-08-20 10:02:16,223 ERROR orchestration.py:63 - No Agent Name found in message (Triage_Agent): {
+  "ticket_id": "<generated-or-provided-id>",
+  "cleaned_text": "subject: production api: intermittent 502s & high latency since 2025-08-14\nour application has been experiencing intermittent 502 errors and unusually high latency when interacting with your production api since 2025-08-14. this has been impacting our services. could you please investigate or advise on possible mitigations? thank you.",
+  "language": "en",
+  "product": "production_api",
+  "version": null,
+  "severity": "high",
+  "intent": "bug",
+  "is_spam": false,
+  "pii_masked": false,
+  "notes": null
+}
+2025-08-20 10:02:16,223 ERROR orchestration.py:64 - Retrying with same agent
+2025-08-20 10:02:37,704 INFO orchestration.py:190 - Group Chat Over
+2025-08-20 23:00:40,549 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 23:00:40,565 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 23:00:40,610 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 23:00:40,625 INFO orchestration.py:152 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.
+2025-08-20 23:02:00,617 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 23:02:00,633 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 23:02:00,672 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 23:02:00,687 INFO orchestration.py:152 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.
+2025-08-20 23:02:28,332 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 23:02:28,347 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 23:02:28,386 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 23:02:28,401 INFO orchestration.py:152 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.
+2025-08-20 23:02:58,528 INFO orchestration.py:178 - Group Chat Over
+2025-08-20 23:05:30,189 DEBUG agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-20 23:05:30,205 DEBUG agent_verse/Retriever_Agent/agent.py:49 - Initializing [🤖] : Retriever_Agent
+2025-08-20 23:05:30,244 DEBUG agent_verse/Composer_Agent/agent.py:49 - Initializing [🤖] : Composer_Agent
+2025-08-20 23:05:30,259 INFO orchestration.py:152 - Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.
+2025-08-20 23:05:54,361 ERROR orchestration.py:63 - No Agent Name found in message (Triage_Agent): {
+  "ticket_id": "<generated-id>",
+  "cleaned_text": "subject: production api: intermittent 502s & high latency since 2025-08-14\nwe’re experiencing intermittent 502 errors and unusually high latency with the production api. our systems started showing these issues around august 14, 2025, and the situation worsened over the past 48 hours. we’ve already checked our infrastructure but didn’t find anything unusual on our end. can you confirm if there's an ongoing issue or provide guidance on debugging?\n\nadditional details:\nendpoint affected: `/api/resource`\nobserved latency: 1200ms average\nerror ids: <redacted:api_keys>\n\nlooking forward to your updates. thanks!",
+  "language": "en",
+  "product": "production-api",
+  "version": null,
+  "severity": "high",
+  "intent": "bug",
+  "is_spam": false,
+  "pii_masked": true,
+  "notes": null
+}
+2025-08-20 23:05:54,362 ERROR orchestration.py:64 - Retrying with same agent
+2025-08-20 23:06:14,351 ERROR orchestration.py:63 - No Agent Name found in message (Retriever_Agent): {
+  "retrieved_context": [
+    {
+      "source_id": "11863",
+      "snippet": "customer support reported sporadic synchronization failures, believed to stem from api rate limiting. actions undertaken included restarting services and examining logs, but issues persist. to proceed, further details on api rate limits and error messages were requested.",
+      "url": null,
+      "score": 0.546
+    },
+    {
+      "source_id": "11193",
+      "snippet": "reported critical outage on saas platform affecting integrations. suspected cause: recent updates leading to api connection issues. attempts to revert changes and reset configurations were unsuccessful. finer details and potentially a call were requested to address the problem effectively.",
+      "url": null,
+      "score": 0.542
+    },
+    {
+      "source_id": "2535",
+      "snippet": "customers encountered connectivity problems with data synchronization likely linked to recent server updates and higher traffic volumes. immediate troubleshooting steps were outlined, requesting error details.",
+      "url": null,
+      "score": 0.529
+    },
+    {
+      "source_id": "9142",
+      "snippet": "delays in api response times noted during peak usage periods, suspected high server load. investigations requested with actions to manage the performance lag.",
+      "url": null,
+      "score": 0.528
+    },
+    {
+      "source_id": "7866",
+      "snippet": "issues reported with delayed response times due to traffic and bottlenecks on a project dashboard. a proposal to analyze logs and response time peaks for remediation suggested.",
+      "url": null,
+      "score": 0.524
+    },
+    {
+      "source_id": "12336",
+      "snippet": "saas platform crashed during peak times, load balancing efforts failed, suspected server overload. recommendations to provide setup specs and precise event details for resolution.",
+      "url": null,
+      "score": 0.516
+    },
+    {
+      "source_id": "5534",
+      "snippet": "recurrent sluggish responses on platform traced to increased traffic and suspected deployment conflicts.",
+      "url": null,
+      "score": 0.514
+    }
+  ]
+}
+2025-08-20 23:06:14,352 ERROR orchestration.py:64 - Retrying with same agent
+2025-08-20 23:06:46,171 INFO orchestration.py:178 - Group Chat Over

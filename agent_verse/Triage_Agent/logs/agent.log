@@ -1,0 +1,97 @@
+2025-08-24 16:24:31,935 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-24 16:24:38,535 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:110 - Assistant > {
+  "from_email_address": "<actual email address>",
+  "cleaned_text": "Detected Unauthorized Access Attempt in Hospital Systems",
+  "language": "en",
+  "product": null,
+  "version": null,
+  "severity": "uncertain",
+  "intent": "abuse",
+  "is_spam": false,
+  "pii_masked": false,
+  "notes": "Uncertainty about the severity level because no detailed information was provided regarding the nature or impact of the access."
+}  
+
+Next Agent: Retriever_Agent 
+2025-08-24 16:24:38,536 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:111 - Current Token Consumed : 922
+2025-08-24 16:24:38,536 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:112 - Total Token Consumed : 922
+2025-08-24 16:24:40,171 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:110 - Assistant > {
+  "from_email_address": "<actual email address>",
+  "cleaned_text": "An unauthorized access attempt was detected in our hospital systems, possibly due to outdated software or unsecured network configurations. We have updated the firewall settings and patched the software vulnerabilities.",
+  "language": "en",
+  "product": null,
+  "version": null,
+  "severity": "high",
+  "intent": "abuse",
+  "is_spam": false,
+  "pii_masked": false,
+  "notes": "The severity is classified as 'high' due to the potential threat from unauthorized access and the mention of software vulnerabilities."
+}  
+
+Next Agent: Retriever_Agent
+2025-08-24 16:24:40,172 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:111 - Current Token Consumed : 1109
+2025-08-24 16:24:40,172 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:112 - Total Token Consumed : 2031
+2025-08-24 16:24:41,808 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:110 - Assistant > {
+  "from_email_address": "pmadhan0006@gmail.com",
+  "cleaned_text": "An unauthorized access attempt was detected in our hospital systems, possibly due to outdated software or unsecured network configurations. We have updated the firewall settings and patched the software vulnerabilities.",
+  "language": "en",
+  "product": null,
+  "version": null,
+  "severity": "high",
+  "intent": "abuse",
+  "is_spam": false,
+  "pii_masked": false,
+  "notes": "The severity is classified as 'high' due to the potential threat from unauthorized access and the mention of software vulnerabilities."
+}  
+
+Next Agent: Retriever_Agent
+2025-08-24 16:24:41,809 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:111 - Current Token Consumed : 1271
+2025-08-24 16:24:41,809 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:112 - Total Token Consumed : 3302
+2025-08-24 16:26:32,911 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:110 - Assistant > {
+  "from_email_address": "pmadhan0006@gmail.com",
+  "cleaned_text": "Detected Unauthorized Access Attempt in Hospital Systems. An unauthorized access attempt was detected in our hospital systems, possibly due to outdated software or unsecured network configurations. We have updated the firewall settings and patched the software vulnerabilities.",
+  "language": "en",
+  "product": null,
+  "version": null,
+  "severity": "high",
+  "intent": "abuse",
+  "is_spam": false,
+  "pii_masked": false,
+  "notes": "The severity is classified as 'high' due to the potential threat from unauthorized access and the mention of software vulnerabilities."
+}  
+
+Next Agent: Retriever_Agent
+2025-08-24 16:26:32,913 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:111 - Current Token Consumed : 1444
+2025-08-24 16:26:32,913 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:112 - Total Token Consumed : 4746
+2025-08-24 16:26:34,852 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:110 - Assistant > {
+  "from_email_address": "pmadhan0006@gmail.com",
+  "cleaned_text": "Detected Unauthorized Access Attempt in Hospital Systems. An unauthorized access attempt was detected in our hospital systems, possibly due to outdated software or unsecured network configurations. We have updated the firewall settings and patched the software vulnerabilities.",
+  "language": "en",
+  "product": null,
+  "version": null,
+  "severity": "high",
+  "intent": "abuse",
+  "is_spam": false,
+  "pii_masked": false,
+  "notes": "The severity is classified as 'high' due to the potential threat from unauthorized access and the mention of software vulnerabilities."
+}  
+
+Next Agent: Retriever_Agent
+2025-08-24 16:26:34,853 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:111 - Current Token Consumed : 1642
+2025-08-24 16:26:34,854 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:112 - Total Token Consumed : 6388
+2025-08-24 16:26:37,455 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:110 - Assistant > {
+  "from_email_address": "pmadhan0006@gmail.com",
+  "cleaned_text": "Detected Unauthorized Access Attempt in Hospital Systems. An unauthorized access attempt was detected in our hospital systems, possibly due to outdated software or unsecured network configurations. We have updated the firewall settings and patched the software vulnerabilities.",
+  "language": "en",
+  "product": null,
+  "version": null,
+  "severity": "high",
+  "intent": "abuse",
+  "is_spam": false,
+  "pii_masked": false,
+  "notes": "The severity is classified as 'high' due to the potential threat from unauthorized access and the mention of software vulnerabilities."
+}  
+
+Next Agent: Retriever_Agent
+2025-08-24 16:26:37,455 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:111 - Current Token Consumed : 1814
+2025-08-24 16:26:37,455 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:112 - Total Token Consumed : 8202

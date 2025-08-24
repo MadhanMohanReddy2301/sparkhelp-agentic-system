@@ -127,7 +127,7 @@ Before running any agent:
 For orchestrating multiple agents together, use the main multi-agent orchestrator:
 
 ```bash
-python process_specific_agent.py
+python orchestration.py
 ```
 
 This file coordinates multiple agents and handles complex workflows involving agent interactions.
@@ -261,7 +261,7 @@ pip install -e .  # Ensure package is installed in editable mode
 
 **Permission Issues**
 ```bash
-chmod +x process_specific_agent.py
+chmod +x orchestration.py
 ```
 
 **Missing Dependencies**

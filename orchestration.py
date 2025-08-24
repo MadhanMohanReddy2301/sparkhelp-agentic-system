@@ -2,45 +2,17 @@
 Defines a FastAPI application to orchestrate group chat among AI agents using Semantic Kernel.
 """
 
-import os
 import asyncio
-import threading
-from fastapi import FastAPI
-from fastapi import status
-from fastapi.responses import JSONResponse
-from fastapi.middleware.cors import CORSMiddleware
 from semantic_kernel.agents import GroupChatOrchestration, BooleanResult, StringResult, MessageResult
 from semantic_kernel.agents import GroupChatManager
 from semantic_kernel.contents import ChatMessageContent, ChatHistory
 from semantic_kernel.agents.runtime import InProcessRuntime
-from pydantic import BaseModel
-from agent_verse.calculator_agent.agent import CalculatorAgent
 from utils.logger import log
 from utils.metrics import log_token_usage
 
-app = FastAPI(
-    title="Agentic AI Base Code",
-    openapi_url=None,
-    docs_url=None,
-    redoc_url=None
-)
-
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=os.environ.get("ALLOWED_ORIGINS", "*"),
-    allow_credentials=False,
-    allow_methods=['*'],
-    allow_headers=['*'],
-)
-
-
-class GroupChatInputModel(BaseModel):
-    """
-        Pydantic model for incoming group chat requests.
-    """
-    user_message: str
-    user_email_id: str
-
+from agent_verse.Triage_Agent.agent import TriageAgent
+from agent_verse.Retriever_Agent.agent import RetrieverAgent
+from agent_verse.Composer_Agent.agent import ComposerAgent
 
 GROUP_CHAT_ORCHESTRATION = None
 STARTING_AGENT = None
@@ -56,7 +28,7 @@ class ProcessGroupChatManager(GroupChatManager):
         Produces a summary of the conversation when filtering results.
         """
         summary = "Summary of the discussion."
-        return MessageResult(result=ChatMessageContent(role="assistant", content=summary), reason="Custom summary logic.")
+        return MessageResult(result=ChatMessageContent(role="assistant", content=summary, choice_index=0), reason="Custom summary logic.")
 
     async def select_next_agent(self, chat_history: ChatHistory, participant_descriptions: dict[str, str]) -> StringResult:
         """
@@ -154,13 +126,15 @@ class ProcessAgent:
         global GROUP_CHAT_ORCHESTRATION
 
         if not GROUP_CHAT_ORCHESTRATION:
-            calculator_agent = await CalculatorAgent().get_agent()
+            intake_agent = await TriageAgent().get_agent()
+            retriever_agent = await RetrieverAgent().get_agent()
+            composer_agent = await ComposerAgent().get_agent()
 
-            STARTING_AGENT = calculator_agent
+            STARTING_AGENT = intake_agent
             TERMINATION_KEYWORD = "Done"
 
             # Create list of allowed agents
-            allowed_agents = [calculator_agent]
+            allowed_agents = [intake_agent,retriever_agent,composer_agent]
 
             GROUP_CHAT_ORCHESTRATION = GroupChatOrchestration(
                 members=allowed_agents,
@@ -171,117 +145,41 @@ class ProcessAgent:
         return GROUP_CHAT_ORCHESTRATION
 
     async def run(self):
-        """
-            Runs an interactive loop for the group chat orchestration.
-        """
         runtime = InProcessRuntime()
         runtime.start()
+        try:
+            group_chat_orchestration = await self.get_group_chat_orchestration()
+            log.info("Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation.")
 
-        group_chat_orchestration = await self.get_group_chat_orchestration()
+            while True:
+                user_input = input("User > ").strip()
+                if not user_input:
+                    continue
 
-        log.info(
-            "Ready! Type your input, or 'exit' to quit, 'reset' to restart the conversation. "
-        )
+                if user_input.lower() == "exit":
+                    break
 
-        is_complete = False
+                if user_input.lower() == "reset":
+                    # Close and restart the runtime in this same task
+                    await runtime.close()
+                    runtime = InProcessRuntime()
+                    runtime.start()
+                    print("[Conversation has been reset]")
+                    continue
 
-        while not is_complete:
+                orchestration_result = await group_chat_orchestration.invoke(
+                    task=user_input,
+                    runtime=runtime,
+                )
 
-            user_input = input("User > ").strip()
-            if not user_input:
-                continue
+                # ensure we await the result so any spawned tasks settle
+                await orchestration_result.get()
 
-            if user_input.lower() == "exit":
-                is_complete = True
+                log.info("Group Chat Over")
                 break
-
-            if user_input.lower() == "reset":
-                await runtime.close()
-                runtime = InProcessRuntime()
-                runtime.start()
-                print("[Conversation has been reset]")
-                continue
-
-            orchestration_result = await group_chat_orchestration.invoke(
-                task=user_input,
-                runtime=runtime,
-            )
-
-            await orchestration_result.get()
-
-            # value = await orchestration_result.get()
-            # print(f"***** Final Result *****\n{value}")
-
-            log.info("Group Chat Over")
-
-
-# Global lock to ensure one group chat runs at a time.
-GROUP_CHAT_LOCK = threading.Lock()
-
-
-def run_thread(input_data: GroupChatInputModel):
-    """
-    Thread entry point for processing a group chat request synchronously.
-    """
-    # The lock is acquired here so that this thread executes exclusively.
-    with GROUP_CHAT_LOCK:
-        # Run the async processing function in this thread.
-        asyncio.run(process_group_chat(input_data))
-
-
-async def process_group_chat(input_data: GroupChatInputModel):
-    """
-        Async function to handle a GroupChatInputModel request.
-    """
-    runtime = InProcessRuntime()
-
-    runtime.start()
-
-    process_agent = ProcessAgent()
-    group_chat_orchestration = await process_agent.get_group_chat_orchestration()
-
-    message = input_data.user_email_id + ": " + input_data.user_message
-
-    log.info(message)
-
-    orchestration_result = await group_chat_orchestration.invoke(
-        task=message,
-        runtime=runtime,
-    )
-
-    await orchestration_result.get()
-
-    # value = await orchestration_result.get()
-    # print(f"***** Final Result *****\n{value}")
-
-    log.info("Group Chat Over")
-
-
-@app.post("/")
-async def process_run(group_chat_input: GroupChatInputModel):
-    """
-        HTTP endpoint to start processing a group chat.
-    """
-
-    # Check if the lock is already held. If so, inform the caller that a session is in progress.
-    if GROUP_CHAT_LOCK.locked():
-        response = {
-            'status': 'failed',
-            'message': 'Previous Request is in process.'
-        }
-        return JSONResponse(status_code=status.HTTP_409_CONFLICT, content=response)
-
-    # Start the group chat processing in a new thread.
-    t = threading.Thread(target=run_thread, args=(group_chat_input,))
-    t.start()
-
-    response = {
-        'status': 'success',
-        'message': 'Processing started'
-    }
-
-    # Immediately return a response to the user.
-    return JSONResponse(status_code=status.HTTP_200_OK, content=response)
+        finally:
+            # close in same task to avoid cancel-scope cross-task error
+            await runtime.close()
 
 
 if __name__ == "__main__":

@@ -1,0 +1,19 @@
+2025-08-17 19:29:12,967 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-17 19:29:33,197 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-17 19:29:37,999 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:110 - Assistant > Hello! Please provide the ticket subject and body.
+Done
+2025-08-17 19:29:37,999 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:111 - Current Token Consumed : 949
+2025-08-17 19:29:38,000 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:112 - Total Token Consumed : 949
+2025-08-17 19:29:52,542 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:110 - Assistant > I'm here to help with processing support tickets. Please provide the ticket subject and body.
+Done
+2025-08-17 19:29:52,543 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:111 - Current Token Consumed : 983
+2025-08-17 19:29:52,543 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:112 - Total Token Consumed : 1932
+2025-08-17 19:32:06,614 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-17 19:32:09,506 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:110 - Assistant > Hello! Please provide the ticket subject and body.
+Done
+2025-08-17 19:32:09,507 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:111 - Current Token Consumed : 949
+2025-08-17 19:32:09,507 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:112 - Total Token Consumed : 949
+2025-08-17 19:32:34,066 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:49 - Initializing [🤖] : Triage_Agent
+2025-08-17 19:32:37,163 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:110 - Assistant > Hello! How can I assist you today?
+2025-08-17 19:32:37,164 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:111 - Current Token Consumed : 17
+2025-08-17 19:32:37,164 DEBUG agent_verse/Triage_Agent/agent_verse/Triage_Agent/agent.py:112 - Total Token Consumed : 17
